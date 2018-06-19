@@ -49,7 +49,7 @@ public class Conexion {
     
     private void cargarCredenciales() {
         user = "root";
-        pass = "";//poner contrasena y ese user y pass que se usara para XAMP
+        pass = "";
         driver = "com.mysql.jdbc.Driver";
         url = "jdbc:mysql://127.0.0.1/SQL";
     }
